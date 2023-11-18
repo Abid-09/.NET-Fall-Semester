@@ -1,0 +1,39 @@
+﻿@model List<Zero_Hunger.Models.Request>
+@{
+    ViewBag.Title = "ViewRequest";
+}
+
+<h2 class=" center-block">Requests</h2>
+<table class="table">
+    <tr>
+        <th scope="col">ID </th>
+        <th scope="col">Restaurant Name</th>
+        <th scope="col">Food Name</th>
+        <th scope="col">Quantity Name</th>
+        <th scope="col">Choose</th>
+    </tr>
+
+
+    @foreach (var item in Model)
+    {
+        <form action="Assign" class="form-control">
+        <tr>
+            <td>
+                <input type="text" value="@item.Id" name="Id" />
+            </td>
+            <td>
+                <input type="text" value="@item.RestaurentName" name="RestaurantName" />
+            </td>
+            <td>
+                <input type="text" value="@item.FoodName" name="FoodName" />
+            </td>
+            <td>
+                <input type="text" value="@item.Quantity" name="Quantity" />
+            </td>
+            <td>
+                <input class="btn btn-primary" type="submit" value="Select" />
+            </td>
+        </tr>
+        </form>}
+
+</table><br />

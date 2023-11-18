@@ -1,0 +1,27 @@
+﻿@model List<Zero_Hunger.Models.Collection>
+@{
+    ViewBag.Title = "Collected";
+}
+
+<h2>Collected</h2>
+<table class="table">
+    <tr>
+        <th>Request Id</th>
+
+        <th>Employee Id</th>
+        <th></th>
+    </tr>
+    @foreach (var item in Model)
+    {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RequestId)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.EmployeeId)
+                    </td>
+                    
+                </tr>
+       }
+</table><br />
+

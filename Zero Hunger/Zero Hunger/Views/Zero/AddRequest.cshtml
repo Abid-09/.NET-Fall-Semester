@@ -1,0 +1,13 @@
+﻿@{
+    ViewBag.Title = "AddRequest";
+}
+
+<h2>Add Request</h2>
+<form action="/Zero/AddRequest" method="post">
+    <input type="number" placeholder="Enter Request Id" name="Id" class="form-control" /><br>
+    <input type="text" placeholder="Enter Name of restaurant" name="RestaurentName"class="form-control" /><br>
+    <input type="text" placeholder="Enter Name of food" name="FoodName"class="form-control" /><br>
+    <input type="text" placeholder="Enter total Quantity" name="Quantity"class="form-control" /><br>
+
+    <input class="btn btn-primary" type="submit" value="Add Request" />
+</form>

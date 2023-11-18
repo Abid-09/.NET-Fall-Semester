@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title  Zero Hunger</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body style="background-color:#b6f2ec">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" title="more options">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("ZERO HUNGER", "Homepage", "Zero", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Empolyee", "ViewEmployee", "Zero")</li>
+                    <li>@Html.ActionLink("Add Request", "AddRequest", "Zero")</li>
+                    <li>@Html.ActionLink("View Request", "ViewRequest", "Zero")</li>
+                    <li>@Html.ActionLink("View Collected Requests", "Collected", "Zero")</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container body-content position:absolute">
+        @RenderBody()
+        <hr />
+         Footer 
+        <footer class="text-center text-lg-dark bbg-success text-muted">
+               
+            <section class="">
+                <div class="container text-center text-md-start mt-5"> 
+                    <div class="row mt-3">
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                             Content 
+                            <h4 class="text-uppercase fw-bold mb-4 text-dark">
+                                <i class="fas fa-gem me-3"></i>Zero Hunger
+                            </h4>
+                            <p>
+                                We are an NGO who works for feeding deprived people and children. We have observed that, people are wasting a ton of food every day in Dhaka city (like office programs, buffets etc). We are on a mission to make the usage of this foods.
+                            </p>
+                        </div>
+                          
+                        
+                          
+                          
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+               
+                            <h4 class="text-uppercase fw-bold mb-4 text-dark">Contact</h4>
+                            <p><i class="fas fa-home me-3"></i> Dhaka, Kuratoli 1200, Bangladesh</p>
+                            <p>
+                                <i class="fas fa-envelope me-3"></i>
+                                hasanmollah151@gmail.com
+                            </p>
+                            <p><i class="fas fa-phone me-3"></i>01628311960</p>
+                            <p>
+                                <a @Html.ActionLink("Send Message", "contact", "Zero")</a>
+                            </p>
+
+
+                        </div>
+                          
+                    </div>
+                     
+                </div>
+            </section>
+             
+        </footer>
+         Footer 
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
