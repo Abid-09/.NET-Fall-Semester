@@ -1,0 +1,14 @@
+F:\ASP .Net\TravelBlogs\BLL\bin\Debug\BLL.dll
+F:\ASP .Net\TravelBlogs\BLL\bin\Debug\BLL.pdb
+F:\ASP .Net\TravelBlogs\BLL\bin\Debug\DAL.dll
+F:\ASP .Net\TravelBlogs\BLL\bin\Debug\DAL.pdb
+F:\ASP .Net\TravelBlogs\BLL\bin\Debug\DAL.dll.config
+F:\ASP .Net\TravelBlogs\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+F:\ASP .Net\TravelBlogs\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+F:\ASP .Net\TravelBlogs\BLL\obj\Debug\BLL.csproj.CopyComplete
+F:\ASP .Net\TravelBlogs\BLL\obj\Debug\BLL.dll
+F:\ASP .Net\TravelBlogs\BLL\obj\Debug\BLL.pdb
+F:\ASP .Net\TravelBlogs\BLL\bin\Debug\AutoMapper.dll
+F:\ASP .Net\TravelBlogs\BLL\bin\Debug\EntityFramework.dll
+F:\ASP .Net\TravelBlogs\BLL\bin\Debug\AutoMapper.xml
+F:\ASP .Net\TravelBlogs\BLL\bin\Debug\EntityFramework.xml
