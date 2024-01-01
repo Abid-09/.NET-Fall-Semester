@@ -19,7 +19,8 @@ namespace BLL.DTOs
         public string Description { get; set; }
         [Required]
         public string Type { get; set; }
-        
+        [Required]
+        public int Catagory_Id { get; set; }
         public string Blogby { get; set; }
         [Required]
         public DateTime Date { get; set; }

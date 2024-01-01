@@ -22,8 +22,9 @@ namespace DAL.Models
         public string Type { get; set; }
         [ForeignKey("User")]
         public string Blogby { get; set; }
+        [Required]
         public DateTime Date {  get; set; }
-
+        public int Catagory_Id { get; set; }
         public virtual User User { get; set; }
         public virtual ICollection<Comment> Blogs { get; set; }
         public Blog()

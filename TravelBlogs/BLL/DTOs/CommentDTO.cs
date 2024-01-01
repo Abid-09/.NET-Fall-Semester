@@ -12,7 +12,7 @@ namespace BLL.DTOs
     {
         public int Id { get; set; }
         [Required]
-        public string Description { get; set; }
+        public string CommentText { get; set; }
         [Required]
         public DateTime Time { get; set; }
         

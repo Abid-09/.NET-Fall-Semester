@@ -18,6 +18,7 @@
                         Type = c.String(nullable: false),
                         Blogby = c.String(maxLength: 128),
                         Date = c.DateTime(nullable: false),
+                        Catagory_Id = c.Int(nullable: false),
                     })
                 .PrimaryKey(t => t.Id)
                 .ForeignKey("dbo.Users", t => t.Blogby)
@@ -28,7 +29,7 @@
                 c => new
                     {
                         Id = c.Int(nullable: false, identity: true),
-                        Description = c.String(nullable: false),
+                        CommentText = c.String(nullable: false),
                         Time = c.DateTime(nullable: false),
                         CommentedBy = c.String(maxLength: 128),
                         BlogId = c.Int(nullable: false),
