@@ -1,0 +1,16 @@
+F:\ASP .Net\OneGoTravel\DAL\bin\Debug\DAL.dll.config
+F:\ASP .Net\OneGoTravel\DAL\bin\Debug\DAL.dll
+F:\ASP .Net\OneGoTravel\DAL\bin\Debug\DAL.pdb
+F:\ASP .Net\OneGoTravel\DAL\bin\Debug\EntityFramework.dll
+F:\ASP .Net\OneGoTravel\DAL\bin\Debug\EntityFramework.SqlServer.dll
+F:\ASP .Net\OneGoTravel\DAL\bin\Debug\EntityFramework.xml
+F:\ASP .Net\OneGoTravel\DAL\bin\Debug\EntityFramework.SqlServer.xml
+F:\ASP .Net\OneGoTravel\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+F:\ASP .Net\OneGoTravel\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+F:\ASP .Net\OneGoTravel\DAL\obj\Debug\DAL.csproj.CopyComplete
+F:\ASP .Net\OneGoTravel\DAL\obj\Debug\DAL.dll
+F:\ASP .Net\OneGoTravel\DAL\obj\Debug\DAL.pdb
+F:\ASP .Net\OneGoTravel\DAL\obj\Debug\DAL.Migrations.initDB.resources
+F:\ASP .Net\OneGoTravel\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+F:\ASP .Net\OneGoTravel\DAL\obj\Debug\DAL.Migrations.TokenDb.resources
+F:\ASP .Net\OneGoTravel\DAL\obj\Debug\DAL.Migrations.UpdateUser.resources
